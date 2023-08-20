@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Landing from './Landing'
+import Koordinatori from './Koordinatori'
+import ListaPesama from './ListaPesama'
 const Home = () => {
   return (
     <>
-      <div>Home</div>
+      <Landing></Landing>
+      <Koordinatori></Koordinatori>
+      <ListaPesama></ListaPesama>
     </>
   )
 }
